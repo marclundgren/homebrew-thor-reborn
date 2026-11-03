@@ -11,7 +11,7 @@ cask "thorreborn" do
   homepage "https://marclundgren.github.io/thor-reborn/"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ThorReborn.app"
 
