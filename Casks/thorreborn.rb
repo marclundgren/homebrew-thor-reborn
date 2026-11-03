@@ -2,7 +2,7 @@ cask "thorreborn" do
   arch arm: "aarch64", intel: "x86_64"
 
   version "1.2.0"
-  sha256 arm:   "0000000000000000000000000000000000000000000000000000000000000000",
+  sha256 arm:   "60f1e1eba9f1e28e331b5ac3eeee808b38e7eeeaf38c8f4787024e5031a6df49",
         intel: "c6a38bd333f60e93d9eb053cd19131b301b3d660d60c5bf4110aa789b7ff1d27"
 
   url "https://github.com/marclundgren/thor-reborn/releases/download/v#{version}/ThorReborn-#{version}-#{arch}.dmg"
